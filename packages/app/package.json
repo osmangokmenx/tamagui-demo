@@ -1,0 +1,41 @@
+{
+  "name": "app",
+  "version": "0.0.0",
+  "dependencies": {
+    "@react-navigation/native": "^6.1.6",
+    "@react-navigation/native-stack": "^6.9.12",
+    "@tamagui/animations-react-native": "^1.8.1",
+    "@tamagui/colors": "^1.8.1",
+    "@tamagui/font-inter": "^1.8.1",
+    "@tamagui/lucide-icons": "^1.8.1",
+    "@tamagui/shorthands": "^1.8.1",
+    "@tamagui/theme-base": "^1.8.1",
+    "expo-linking": "^4.0.1",
+    "i18next": "^22.4.12",
+    "react": "^18.2.0",
+    "react-i18next": "^12.2.0",
+    "react-native": "0.71.4",
+    "solito": "^3.0.0",
+    "tamagui": "^1.8.1",
+    "ui": "workspace:^",
+    "zustand": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.15",
+    "eslint": "^8.36.0",
+    "prettier": "latest",
+    "typescript": "^5.0.2"
+  },
+  "main": "src/index.ts",
+  "private": true,
+  "scripts": {
+    "format": "prettier --write \"**/*.{ts,tsx}\" --config ../../.prettierrc",
+    "format:check": "prettier -c \"**/*.{ts,tsx}\"",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "typecheck": "tsc -b"
+  },
+  "sideEffects": [
+    "*.css"
+  ]
+}
